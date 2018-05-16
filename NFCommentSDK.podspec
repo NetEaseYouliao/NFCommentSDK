@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NFCommentSDK"
-  s.version      = '0.1.1'
+  s.version      = '0.1.2'
   s.summary      = "网易有料评论SDK"
   s.description  = <<-DESC
                    网易有料评论SDK
