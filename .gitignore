@@ -1,0 +1,5 @@
+# Fastlane
+/fastlane/report.xml
+/fastlane/.env*private*
+fastlane/test-output/*
+fastlane/README.md
