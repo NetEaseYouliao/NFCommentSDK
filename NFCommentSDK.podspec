@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NFCommentSDK"
-  s.version      = '0.1.2'
+  s.version      = '1.0.0'
   s.summary      = "网易有料评论SDK"
   s.description  = <<-DESC
                    网易有料评论SDK
@@ -13,10 +13,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.vendored_frameworks ='NFCommentSDK/NFCommentSDK.framework'
   s.resource     = 'NFCommentSDK/NFCommentSDK.framework/Versions/A/Resources/NFCommentBundle.bundle'
+  s.static_framework = true
 
   s.ios.deployment_target = "8.0"
 
-  s.frameworks = 'UIKit'
+  s.frameworks = 'UIKit', 'AdSupport'
 
   s.weak_frameworks = 'CoreFoundation'
 
