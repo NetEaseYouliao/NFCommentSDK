@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "NFCommentSDK"
-  s.version      = '1.0.0'
+  s.version      = '1.0.1'
   s.summary      = "网易有料评论SDK"
   s.description  = <<-DESC
                    网易有料评论SDK
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://github.com/NetEaseYouliao/NFCommentSDK/raw/master/NFCommentSDK/NFCommentSDK-#{s.version}.zip" }
   s.requires_arc = true
   s.platform     = :ios
-  s.vendored_frameworks ='NFCommentSDK/NFCommentSDK.framework'
+  s.vendored_frameworks = 'NFCommentSDK/NFCommentSDK.framework'
   s.resource     = 'NFCommentSDK/NFCommentSDK.framework/Versions/A/Resources/NFCommentBundle.bundle'
   s.static_framework = true
 
