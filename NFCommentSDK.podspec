@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                    网易有料评论SDK
                    DESC
   s.homepage     = 'https://youliao.163yun.com/'
-  s.authors      = { '蔡三泽' => 'caisanze@corp.netease.com' }
+  s.authors      = { '蔡三泽' => 'csz0102@gmail.com' }
   s.license      = { :type => 'Copyright', :text => '©2018 youliao.163yun.com' }
   s.source       = { :http => "https://github.com/NetEaseYouliao/NFCommentSDK/raw/master/NFCommentSDK/NFCommentSDK-#{s.version}.zip" }
   s.requires_arc = true
